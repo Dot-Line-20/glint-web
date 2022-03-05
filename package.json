@@ -1,0 +1,29 @@
+{
+  "name": "self-develop-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src --ext .js",
+    "lint:fix": "eslint ./src --ext .js --fix",
+    "prettier": "prettier ./src",
+    "prettier:write": "prettier ./src --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dot-Line-20/self-develop-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dot-Line-20/self-develop-web/issues"
+  },
+  "homepage": "https://github.com/Dot-Line-20/self-develop-web#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
