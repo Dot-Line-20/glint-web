@@ -1,7 +1,7 @@
 {
   "name": "self-develop-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "self develop web",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src --ext .js",
