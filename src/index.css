@@ -45,12 +45,12 @@ h6{
 p.explain_text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 1.2;
 }
 
 
 p.main_text{
     font-size: 14px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5;
 }
