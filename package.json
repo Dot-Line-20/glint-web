@@ -4,6 +4,9 @@
   "description": "self develop web",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build",
     "lint": "eslint ./src/**/*.js",
     "lint:fix": "eslint ./src --ext .js --fix",
     "prettier": "prettier ./src",
@@ -24,6 +27,7 @@
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "vite": "^2.8.6"
   }
 }
