@@ -24,11 +24,13 @@
     "url": "https://github.com/Dot-Line-20/self-develop-web/issues"
   },
   "homepage": "https://github.com/Dot-Line-20/self-develop-web#readme",
+  "dependencies": {
+    "vite": "^2.8.6"
+  },
   "devDependencies": {
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1",
-    "vite": "^2.8.6"
+    "prettier": "^2.5.1"
   }
 }
