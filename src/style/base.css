@@ -1,11 +1,13 @@
-/*@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');*/
-
 :root {
   --gray100: #141517;
   --gray200: #5e5e67;
   --gray300: #a9a9b5;
   --gray400: #e8e8e8;
   --gray500: #f3f3f3;
+  --Blue: #1372a7;
+  --purple: #9a58ce;
+  --Sys_Green: #95c235;
+  --Sys_Red: #dd3b3b;
 }
 
 * {
