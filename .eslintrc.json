@@ -1,15 +1,33 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true,
+        "amd": true
     },
-    "plugins": ["prettier"],
-    "extends": ["eslint:recommended", "plugin:prettier/recommended" ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
     "rules": {
-        "prettier/prettier": "error"
+    },
+    "overrides": [{
+        "files": ["src/**/*.jsx", "src/**/*.js"]
+    }],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     }
 }
