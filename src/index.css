@@ -4,8 +4,9 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,4 +15,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-style: normal;
+    font-weight: 700;
+    @apply text-gray-100;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  h6 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .explainText1,
+  .explainText2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .explainText1 {
+    @apply text-gray-200;
+  }
+
+  .explainText2 {
+    @apply text-gray-300;
+  }
+
+  .mainText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    @apply text-gray-100;
+  }
 }
